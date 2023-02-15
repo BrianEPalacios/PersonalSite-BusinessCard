@@ -47,12 +47,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+/*
+.background {
+    width: 500px;
+    height: 350px;
+    border-radius: 2rem;
+    position: absolute;
+} */
 .back {
     transform: rotateY(180deg);
+    padding: 10px 10px;
 }
 
 .socialMediaContainer {
     display: inline-block;
+    background-color: grey;
 }
 .socialMediaImage {
     width: 50px;

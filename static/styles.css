@@ -85,25 +85,42 @@
     width: 50px;
     height: 50px;
 }
+.indexCopyright {
+    text-align: center;
+    color: rgb(211, 211, 211);
+}
 
                                                         /*portfolio.html css*/
 
 .portfolioBody {
     height: 100vh;
-    overflow: hidden;
     font-family: Helvetica, sans-serif;
     color: rgb(211, 211, 211);
     background-color: #0D0E0E;
 }
 .portfolioHeaderText {
     text-align: center;
+    font-size: 4em;
 }
 .portfolioContainer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
 }
+.projectCard {
+    width: 500px;
+    height: 600px;
+}
 .projectImage {
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 80%;
+    border-radius: 2em;
+}
+.appName {
+    text-align: center;
+    padding-top: 2px;
+}
+.copyright {
+    text-align: center;
+    background-color: #0D0E0E;
 }
